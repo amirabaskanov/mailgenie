@@ -4,6 +4,30 @@ export default function Home() {
   return (
     <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
       <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
+        <h1 className="font-bold text-3xl sm:text-4xl text-center sm:text-left">
+          Welcome to MailGenie by Amir Abaskanov
+        </h1>
+        <p>
+          Soon, this project will become a full-stack AI chatbot SaaS application that:
+        </p>
+        <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
+          <li>
+            Automates customer engagement
+          </li>
+          <li>
+            Schedules appointments
+          </li>
+          <li>
+            Integrates with Stripe for payments
+          </li>
+          <li>
+            And enables email marketing campaigns!
+          </li>
+        </ol>
+        <p className="text-sm text-center sm:text-left">
+          The project will use modern technologies like Next.js 15 (TypeScript), Prisma, NeonDB (PostgresQL), Clerk, Pusher, Uploadcare, and OpenAI.
+        </p>
+        <h1 className="font-bold text-3xl sm:text-4xl text-center sm:text-left">NextJS details:</h1>
         <Image
           className="dark:invert"
           src="/next.svg"
